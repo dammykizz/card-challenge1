@@ -1,0 +1,87 @@
+* {
+    padding: 0 ;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+body {
+    background-color: hsl(233, 47%, 7%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    height: 100vh;
+}
+
+
+.container {
+    border-radius: 10px;
+    display: flex;
+    margin: auto;
+    background-color: antiquewhite;
+    height: 450px;
+    width: 80%;
+    border:  hsl(244, 38%, 16%);
+}
+
+.content {
+    padding: px;
+    background-color: hsl(244, 38%, 16%);
+    color: white;
+    width: 50%;
+    border-radius: 10px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border:  hsl(244, 38%, 16%);
+}
+
+.img {
+    display: flex;
+    background-image:linear-gradient(hsla(277, 38%, 51%, 0.7),hsla(277, 90%,21%, 0.7)), url(./images/image-header-desktop.jpg);
+    width: 50%;
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
+
+.main {
+    padding: 70px;
+}
+
+h3 {
+    font-size: 47px;
+    margin-bottom: 20px;
+}
+
+span {
+    color:  hsl(277, 64%, 61%);
+}
+
+p {
+    font-size: 20px;
+    color:  hsla(0, 0%, 100%, 0.75);
+}
+
+.num {
+    margin-top: 40px;
+}
+
+h2 {
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.pp {
+    font-size: 13px;
+    color:  hsla(0, 0%, 100%, 0.75);
+}
+
+.num {
+    display: flex;
+    width: 95%;
+    justify-content: space-between;
+}
